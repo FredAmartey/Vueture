@@ -3,7 +3,7 @@
     <b-navbar-brand href="#">Vueture</b-navbar-brand>
     <b-navbar-nav class="ml-auto">
       <b-nav-text>{{ user.name }}</b-nav-text>
-      <b-button variant="outline-danger" id="chat-logout" href="#">Logout</b-button>
+      <b-button variant="outline-danger" id="chat-logout" href="#" @click="onLogout">Logout</b-button>
     </b-navbar-nav>
   </b-navbar>
 </template>
