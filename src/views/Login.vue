@@ -7,8 +7,8 @@
       bg-variant="info"
       text-variant="white"
     >
-      <p>For more information visit website</p>
-      <b-btn target="_blank" href="https://pusher.com/chatkit">More Info</b-btn>
+      <p>Under development...</p>
+      <b-btn target="_blank" href="https://github.com/FredAmartey">GitHub</b-btn>
     </b-jumbotron>
     <b-container>
       <b-row>
