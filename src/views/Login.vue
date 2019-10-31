@@ -19,6 +19,11 @@
         <b-col lg="4" md="3"></b-col>
       </b-row>
     </b-container>
+    <b-navbar id="psuedo-footer" type="light" variant="light">
+      <a href="https://fredamartey.com" target="_blank">
+        <img class="fa-logo" src="../assets/fred-logo-complete-grey.png" />
+      </a>
+    </b-navbar>
   </div>
 </template>
 
@@ -46,5 +51,23 @@ export default {
     #ec6ead,
     #3494e6
   ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#psuedo-footer {
+  margin-bottom: 30px !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  text-align: center !important;
+}
+
+.fa-logo {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 180px;
 }
 </style>
