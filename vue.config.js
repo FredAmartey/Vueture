@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/vueture/pwa"
+  baseUrl: process.env.NODE_ENV === "production" ? "/projects/vueture/pwa" : "/"
 };
