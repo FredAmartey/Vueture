@@ -8,7 +8,7 @@
       text-variant="white"
     >
       <p>Under development...</p>
-      <b-btn target="_blank" href="https://github.com/FredAmartey">GitHub</b-btn>
+      <b-btn target="_blank" href="https://github.com/FredAmartey/Vueture">GitHub</b-btn>
     </b-jumbotron>
     <b-container>
       <b-row>
