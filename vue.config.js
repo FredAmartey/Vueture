@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/projects/vueture/pwa"
+  publicPath: "/var/www/fredamartey.com/projects/vueture/pwa"
 };
